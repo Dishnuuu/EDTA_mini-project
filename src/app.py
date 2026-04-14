@@ -198,7 +198,7 @@ def get_status_color(status: str) -> str:
 
 
 # ============================================================================
-# Professional Government Theme CSS
+# Rose & Slate Modern Theme CSS
 # ============================================================================
 
 st.markdown("""
@@ -211,7 +211,7 @@ st.markdown("""
     .stApp > header {display: none;}
 
     .stApp {
-        background: #000000;
+        background: #0f0f0f;
         min-height: 100vh;
         padding-top: 0.5rem !important;
     }
@@ -234,7 +234,7 @@ st.markdown("""
     .sub-header {
         font-family: 'Cormorant Garamond', sans-serif !important;
         font-size: 1.15rem;
-        color: #e5e7eb;
+        color: #94a3b8;
         text-align: center;
         margin-bottom: 1.5rem;
         font-weight: 400;
@@ -243,9 +243,9 @@ st.markdown("""
     }
 
     .card {
-        background: #1a1a1a;
+        background: #1e1e24;
         border-radius: 12px;
-        border: 1px solid #404040;
+        border: 1px solid #334155;
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
         padding: 1.5rem;
         margin: 1rem 0;
@@ -261,13 +261,13 @@ st.markdown("""
         align-items: center;
         gap: 0.5rem;
         padding-bottom: 0.5rem;
-        border-bottom: 1px solid #404040;
+        border-bottom: 1px solid #334155;
     }
 
     .kpi-card {
-        background: #1a1a1a;
+        background: #1e1e24;
         border-radius: 12px;
-        border: 1px solid #404040;
+        border: 1px solid #334155;
         padding: 1.25rem;
         text-align: center;
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
@@ -282,7 +282,7 @@ st.markdown("""
         left: 0;
         right: 0;
         height: 2px;
-        background: #06b6d4;
+        background: #f43f5e;
     }
 
     .kpi-value {
@@ -290,20 +290,20 @@ st.markdown("""
         font-size: 2rem;
         font-weight: 600;
         margin-bottom: 0.25rem;
-        color: #06b6d4;
+        color: #f43f5e;
     }
 
     .kpi-label {
         font-family: 'Inter', sans-serif !important;
         font-size: 0.7rem;
-        color: #e5e7eb;
+        color: #94a3b8;
         font-weight: 500;
         text-transform: uppercase;
         letter-spacing: 1px;
     }
 
     .stButton > button {
-        background: #06b6d4;
+        background: #f43f5e;
         color: #ffffff;
         border: none;
         border-radius: 8px;
@@ -318,7 +318,7 @@ st.markdown("""
     }
 
     .stButton > button:hover {
-        background: #0891b2;
+        background: #e11d48;
         transform: translateY(-1px);
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
     }
@@ -326,8 +326,8 @@ st.markdown("""
     .stTextInput > div > div > input,
     .stTextArea > div > div > textarea,
     .stSelectbox > div > div > select {
-        background: #1a1a1a;
-        border: 1px solid #404040;
+        background: #1e1e24;
+        border: 1px solid #334155;
         border-radius: 8px;
         color: #ffffff;
         font-family: 'Inter', sans-serif !important;
@@ -337,42 +337,42 @@ st.markdown("""
     .stTextInput > div > div > input:focus,
     .stTextArea > div > div > textarea:focus,
     .stSelectbox > div > div > select:focus {
-        border-color: #06b6d4;
-        box-shadow: 0 0 0 2px rgba(6, 182, 212, 0.3);
+        border-color: #f43f5e;
+        box-shadow: 0 0 0 2px rgba(244, 63, 94, 0.3);
         outline: none;
-        background: #1a1a1a;
+        background: #1e1e24;
     }
 
     label[data-testid*="stTextInput"],
     label[data-testid*="stTextArea"] {
         font-family: 'Inter', sans-serif !important;
-        color: #e5e7eb;
+        color: #94a3b8;
     }
 
     .success-box {
-        background: #164e63;
-        border: 1px solid #06b6d4;
+        background: #064e3b;
+        border: 1px solid #10b981;
         border-radius: 8px;
         padding: 1rem;
-        color: #67e8f9;
+        color: #6ee7b7;
         margin: 1rem 0;
     }
 
     .error-box {
-        background: #7f1d1d;
-        border: 1px solid #ef4444;
+        background: #4c0519;
+        border: 1px solid #f43f5e;
         border-radius: 8px;
         padding: 1rem;
-        color: #fca5a5;
+        color: #fecdd3;
         margin: 1rem 0;
     }
 
     .info-box {
-        background: #1e3a5f;
-        border: 1px solid #3b82f6;
+        background: #1e1e24;
+        border: 1px solid #334155;
         border-radius: 8px;
         padding: 1rem;
-        color: #93c5fd;
+        color: #cbd5e1;
         margin: 1rem 0;
     }
 
@@ -394,9 +394,9 @@ st.markdown("""
     }
 
     .status-in-progress {
-        background: #1e40af;
-        color: #60a5fa;
-        border: 1px solid #3b82f6;
+        background: #4a1d96;
+        color: #a78bfa;
+        border: 1px solid #7c3aed;
     }
 
     .status-resolved {
@@ -406,44 +406,44 @@ st.markdown("""
     }
 
     .status-closed {
-        background: #374151;
-        color: #d1d5db;
-        border: 1px solid #6b7280;
+        background: #334155;
+        color: #cbd5e1;
+        border: 1px solid #475569;
     }
 
     .severity-high {
-        background: #7f1d1d;
-        color: #fca5a5;
-        border: 1px solid #ef4444;
+        background: #4c0519;
+        color: #fecdd3;
+        border: 1px solid #f43f5e;
     }
 
     .severity-low {
-        background: #164e63;
-        color: #67e8f9;
-        border: 1px solid #06b6d4;
+        background: #1e1e24;
+        color: #94a3b8;
+        border: 1px solid #64748b;
     }
 
     .dept-card {
-        background: #1a1a1a;
+        background: #1e1e24;
         border-radius: 12px;
         padding: 1rem;
         display: flex;
         align-items: center;
         gap: 0.75rem;
-        border: 1px solid #404040;
+        border: 1px solid #334155;
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
         transition: all 0.2s ease;
     }
 
     .dept-card:hover {
-        border-color: #06b6d4;
+        border-color: #f43f5e;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
         transform: translateY(-2px);
     }
 
     .dept-card-selected {
-        border-color: #06b6d4;
-        box-shadow: 0 0 0 2px rgba(6, 182, 212, 0.4), 0 4px 8px rgba(0, 0, 0, 0.5);
+        border-color: #f43f5e;
+        box-shadow: 0 0 0 2px rgba(244, 63, 94, 0.4), 0 4px 8px rgba(0, 0, 0, 0.5);
         transform: translateY(-2px);
     }
 
@@ -455,8 +455,8 @@ st.markdown("""
         align-items: center;
         justify-content: center;
         font-size: 1.25rem;
-        background: #06b6d4;
-        border: 2px solid #0891b2;
+        background: #f43f5e;
+        border: 2px solid #e11d48;
     }
 
     .dept-card strong {
@@ -468,30 +468,30 @@ st.markdown("""
 
     .dept-card p {
         font-family: 'Inter', sans-serif !important;
-        color: #e5e7eb;
+        color: #94a3b8;
         font-size: 0.8rem;
         margin: 0;
     }
 
     .custom-divider {
         height: 1px;
-        background: #404040;
+        background: #334155;
         margin: 1.5rem 0;
         border: none;
     }
 
     .ticket-card {
-        background: #1a1a1a;
+        background: #1e1e24;
         border-radius: 12px;
         padding: 1rem;
-        border: 1px solid #404040;
+        border: 1px solid #334155;
         margin-bottom: 0.75rem;
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
         transition: all 0.2s ease;
     }
 
     .ticket-card:hover {
-        border-color: #06b6d4;
+        border-color: #f43f5e;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
         transform: translateX(2px);
     }
@@ -499,7 +499,7 @@ st.markdown("""
     .ticket-id {
         font-family: 'Inter', sans-serif !important;
         font-weight: 600;
-        color: #06b6d4;
+        color: #f43f5e;
         font-size: 1.1rem;
         letter-spacing: 0.5px;
     }
@@ -518,7 +518,7 @@ st.markdown("""
         top: 40px;
         bottom: -20px;
         width: 2px;
-        background: #404040;
+        background: #334155;
     }
 
     .timeline-item:last-child::before {
@@ -529,8 +529,8 @@ st.markdown("""
         width: 32px;
         height: 32px;
         border-radius: 50%;
-        background: #06b6d4;
-        border: 2px solid #0891b2;
+        background: #f43f5e;
+        border: 2px solid #e11d48;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -552,13 +552,13 @@ st.markdown("""
     .timeline-date {
         font-family: 'Inter', sans-serif !important;
         font-size: 0.8rem;
-        color: #e5e7eb;
+        color: #94a3b8;
     }
 
     .timeline-notes {
         font-family: 'Inter', sans-serif !important;
         font-size: 0.85rem;
-        color: #e5e7eb;
+        color: #94a3b8;
         margin-top: 0.5rem;
         line-height: 1.6;
     }
@@ -568,18 +568,18 @@ st.markdown("""
     }
 
     .stTabs [data-baseweb="tab"] {
-        background: #1a1a1a;
+        background: #1e1e24;
         border-radius: 8px;
-        border: 1px solid #404040;
+        border: 1px solid #334155;
         padding: 0.5rem 1rem;
         font-family: 'Inter', sans-serif !important;
-        color: #e5e7eb;
+        color: #94a3b8;
         transition: all 0.2s ease;
     }
 
     .stTabs [aria-selected="true"] {
-        background: #06b6d4;
-        border-color: #06b6d4;
+        background: #f43f5e;
+        border-color: #f43f5e;
         color: #ffffff;
         font-weight: 600;
     }
@@ -595,7 +595,7 @@ def main():
     """Main application entry point."""
 
     st.markdown('<h1 style="font-family: Playfair Display, sans-serif; font-size: 3.5rem !important; font-weight: 700; color: #ffffff; text-align: center; margin-top: -1rem; margin-bottom: 0.25rem; letter-spacing: 2px;">🏛️ ekajalakkam</h1>', unsafe_allow_html=True)
-    st.markdown('<p style="font-family: Cormorant Garamond, sans-serif; font-size: 1.15rem; color: #e5e7eb; text-align: center; margin-bottom: 1.5rem; letter-spacing: 3px; text-transform: uppercase;">Public Grievance Analysis & Prioritization System</p>', unsafe_allow_html=True)
+    st.markdown('<p style="font-family: Cormorant Garamond, sans-serif; font-size: 1.15rem; color: #94a3b8; text-align: center; margin-bottom: 1.5rem; letter-spacing: 3px; text-transform: uppercase;">Public Grievance Analysis & Prioritization System</p>', unsafe_allow_html=True)
 
     # Check API health
     api_healthy = check_api_health()
@@ -1232,15 +1232,15 @@ def department_admin_dashboard():
                 values='Count',
                 title='Complaints by Severity',
                 color='Severity',
-                color_discrete_map={'High': '#f43f5e', 'Low': '#06b6d4'}
+                color_discrete_map={'High': '#f43f5e', 'Low': '#94a3b8'}
             )
             fig_sev.update_layout(
                 height=300,
                 font=dict(family='Inter, sans-serif', size=12, color='#e5e7eb'),
                 title_font=dict(family='Playfair Display, sans-serif', size=14, color='#ffffff'),
                 margin=dict(l=20, r=20, t=40, b=20),
-                paper_bgcolor='#1a1a1a',
-                plot_bgcolor='#1a1a1a'
+                paper_bgcolor='#1e1e24',
+                plot_bgcolor='#1e1e24'
             )
             st.plotly_chart(fig_sev, use_container_width=True)
 
@@ -1265,10 +1265,10 @@ def department_admin_dashboard():
                 font=dict(family='Inter, sans-serif', size=12, color='#e5e7eb'),
                 title_font=dict(family='Playfair Display, sans-serif', size=14, color='#ffffff'),
                 margin=dict(l=40, r=20, t=40, b=40),
-                paper_bgcolor='#1a1a1a',
-                plot_bgcolor='#1a1a1a',
-                xaxis=dict(showgrid=True, gridcolor='#404040'),
-                yaxis=dict(showgrid=True, gridcolor='#404040')
+                paper_bgcolor='#1e1e24',
+                plot_bgcolor='#1e1e24',
+                xaxis=dict(showgrid=True, gridcolor='#334155'),
+                yaxis=dict(showgrid=True, gridcolor='#334155')
             )
             st.plotly_chart(fig_status, use_container_width=True)
 
