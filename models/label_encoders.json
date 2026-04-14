@@ -1,0 +1,13 @@
+{
+  "department_classes": [
+    "Billing & Accounts",
+    "Electricity",
+    "Roads & Infrastructure",
+    "Waste-Water/Sewage",
+    "Water Supply"
+  ],
+  "severity_classes": [
+    "High",
+    "Low"
+  ]
+}
