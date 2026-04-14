@@ -282,7 +282,7 @@ st.markdown("""
         left: 0;
         right: 0;
         height: 2px;
-        background: #10b981;
+        background: #06b6d4;
     }
 
     .kpi-value {
@@ -290,7 +290,7 @@ st.markdown("""
         font-size: 2rem;
         font-weight: 600;
         margin-bottom: 0.25rem;
-        color: #10b981;
+        color: #06b6d4;
     }
 
     .kpi-label {
@@ -303,7 +303,7 @@ st.markdown("""
     }
 
     .stButton > button {
-        background: #10b981;
+        background: #06b6d4;
         color: #ffffff;
         border: none;
         border-radius: 8px;
@@ -318,7 +318,7 @@ st.markdown("""
     }
 
     .stButton > button:hover {
-        background: #059669;
+        background: #0891b2;
         transform: translateY(-1px);
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
     }
@@ -337,8 +337,8 @@ st.markdown("""
     .stTextInput > div > div > input:focus,
     .stTextArea > div > div > textarea:focus,
     .stSelectbox > div > div > select:focus {
-        border-color: #10b981;
-        box-shadow: 0 0 0 2px rgba(16, 185, 129, 0.3);
+        border-color: #06b6d4;
+        box-shadow: 0 0 0 2px rgba(6, 182, 212, 0.3);
         outline: none;
         background: #1a1a1a;
     }
@@ -350,11 +350,11 @@ st.markdown("""
     }
 
     .success-box {
-        background: #064e3b;
-        border: 1px solid #10b981;
+        background: #164e63;
+        border: 1px solid #06b6d4;
         border-radius: 8px;
         padding: 1rem;
-        color: #6ee7b7;
+        color: #67e8f9;
         margin: 1rem 0;
     }
 
@@ -418,9 +418,9 @@ st.markdown("""
     }
 
     .severity-low {
-        background: #064e3b;
-        color: #6ee7b7;
-        border: 1px solid #10b981;
+        background: #164e63;
+        color: #67e8f9;
+        border: 1px solid #06b6d4;
     }
 
     .dept-card {
@@ -436,14 +436,14 @@ st.markdown("""
     }
 
     .dept-card:hover {
-        border-color: #10b981;
+        border-color: #06b6d4;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
         transform: translateY(-2px);
     }
 
     .dept-card-selected {
-        border-color: #10b981;
-        box-shadow: 0 0 0 2px rgba(16, 185, 129, 0.4), 0 4px 8px rgba(0, 0, 0, 0.5);
+        border-color: #06b6d4;
+        box-shadow: 0 0 0 2px rgba(6, 182, 212, 0.4), 0 4px 8px rgba(0, 0, 0, 0.5);
         transform: translateY(-2px);
     }
 
@@ -455,8 +455,8 @@ st.markdown("""
         align-items: center;
         justify-content: center;
         font-size: 1.25rem;
-        background: #10b981;
-        border: 2px solid #059669;
+        background: #06b6d4;
+        border: 2px solid #0891b2;
     }
 
     .dept-card strong {
@@ -491,7 +491,7 @@ st.markdown("""
     }
 
     .ticket-card:hover {
-        border-color: #10b981;
+        border-color: #06b6d4;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
         transform: translateX(2px);
     }
@@ -499,7 +499,7 @@ st.markdown("""
     .ticket-id {
         font-family: 'Inter', sans-serif !important;
         font-weight: 600;
-        color: #10b981;
+        color: #06b6d4;
         font-size: 1.1rem;
         letter-spacing: 0.5px;
     }
@@ -529,8 +529,8 @@ st.markdown("""
         width: 32px;
         height: 32px;
         border-radius: 50%;
-        background: #10b981;
-        border: 2px solid #059669;
+        background: #06b6d4;
+        border: 2px solid #0891b2;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -578,8 +578,8 @@ st.markdown("""
     }
 
     .stTabs [aria-selected="true"] {
-        background: #10b981;
-        border-color: #10b981;
+        background: #06b6d4;
+        border-color: #06b6d4;
         color: #ffffff;
         font-weight: 600;
     }
@@ -1232,7 +1232,7 @@ def department_admin_dashboard():
                 values='Count',
                 title='Complaints by Severity',
                 color='Severity',
-                color_discrete_map={'High': '#f43f5e', 'Low': '#10b981'}
+                color_discrete_map={'High': '#f43f5e', 'Low': '#06b6d4'}
             )
             fig_sev.update_layout(
                 height=300,
