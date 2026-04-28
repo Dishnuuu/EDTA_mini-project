@@ -1,0 +1,9 @@
+venv/
+*.pyc
+__pycache__/
+*.db
+.env
+*.log
+.DS_Store
+*.keras
+ppt.met.zip
